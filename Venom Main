@@ -46,6 +46,13 @@ Debugs:AddButton({
 	end
 })
 Debugs:AddButton({
+	Title = "LALOL",
+	Description = "scan backdoor games",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/its-LALOL/LALOL-Hub/main/Backdoor-Scanner/script"))()
+	end
+})
+Debugs:AddButton({
 	Title = "IY",
 	Description = "Helps just noclip or doing things faster or fly or wtv",
 	Callback = function()
